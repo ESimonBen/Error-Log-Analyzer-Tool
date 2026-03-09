@@ -57,10 +57,8 @@ Example output for the sample above:
     "Check database availability or connection pool limits",
     "Verify the service is running and reachable"
   ]
-defaults depend on the patterns defined in error_patterns.py.)
-d}
-d```
-
+}
+```
 **Running Locally**
 1. Install Python 3.
 2. Clone the repository and navigate into the project directory.
@@ -68,10 +66,12 @@ d```
 4. Run the test script:
 ```bash
 python3 run_test.py
-```This will:
+```
+This will:
 - Load test_input.json.
 - Call run() from cortextone_function.py.
 - Print the resulting JSON to stdout.
-Extending Error Patterns
-To add or modify error detection rules, edit error_patterns.py:
-```python
+
+**Extending Error Patterns**
+
+To add or modify error detection rules, edit error_patterns.py.
