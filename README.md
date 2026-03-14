@@ -60,9 +60,7 @@ Example:
 
 ```json
 {
-  "log_text": "2026-03-10 12:00:01 INFO Server started
-2026-03-10 12:00:03 WARNING Disk usage high
-2026-03-10 12:00:05 ERROR connection refused"
+  "log_text": "2026-03-10 12:00:01 INFO Server started\n2026-03-10 12:00:03 WARNING Disk usage high\n2026-03-10 12:00:05 ERROR connection refused"
 }
 ```
 
